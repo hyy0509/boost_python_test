@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lw/Documents/git_huang/boost_python_test/word_class.hpp
+string
+-
+
+/home/lw/Documents/git_huang/boost_python_test/world_class_wrapper.cpp
+boost/python.hpp
+-
+word_class.hpp
+/home/lw/Documents/git_huang/boost_python_test/word_class.hpp
+

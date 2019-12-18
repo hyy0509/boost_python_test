@@ -1,0 +1,1 @@
+g++  -fPIC -g -Wall -std=c++11 -pthread  -shared -Wl,-soname,hello.so -o hello.so CMakeFiles/hello.dir/world_class_wrapper.cpp.o -lboost_python 
