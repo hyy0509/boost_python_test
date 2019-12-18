@@ -1,10 +1,11 @@
 # boost_python_test
-ubuntu安装libboost-python 
+# Env: ubuntu
+# Tool: libbost-python 
 sudo apt -y install libpython2.7-dev libboost-python-dev
 
 
-test method:
-cd build
-python prompt
-import hello
+# Test:
+* cd build
+* python prompt
+* import hello
 
